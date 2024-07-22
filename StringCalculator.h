@@ -1,6 +1,5 @@
 #include"string.h"
-
-int a, output=0;
+int a,output=0;
 char *input;
 char *copy;
 char checkzero(char* input);
@@ -9,8 +8,6 @@ char checkEmptystring( char* input)
 char checkSpecialCharacter( char* copy);
 int AddCopyString (char* copy);
 char UpdateCopyString( char* copy);
-
-
 
 char checkEmptystring( char* input)
 {
